@@ -1,0 +1,9 @@
+{
+    "LingoQA": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/added_symbol/LingoQA_gpt_annotation_11k.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 11577
+    }
+}

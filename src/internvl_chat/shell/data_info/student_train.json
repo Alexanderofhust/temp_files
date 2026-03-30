@@ -1,0 +1,9 @@
+{
+     "latent_states_nusc": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data1/chenxiwu/ICoT/data/m_hs/test_2/merged_data.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 8
+    }
+}

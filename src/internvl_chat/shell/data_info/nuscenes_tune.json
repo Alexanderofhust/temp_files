@@ -1,0 +1,38 @@
+{
+     "LingoQA": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/added_symbol/LingoQA_gpt_annotation_11k.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 11576
+    },
+    
+    "counter_traj": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/added_symbol/counter_traj_sft_bev_train_temporal_fixed.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 19407
+    },
+     "NuScenes_bev_traj": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/added_symbol/NuScenes_bev_traj.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 23930
+    },
+     "NuScenes_counterfactual_traj_cot_7k": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/added_symbol/NuScenes_counterfactual_traj_cot_7k.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 7173
+    },
+     "NuScenes_test": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/val/dealed_nuscenes_traj_val.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 6019
+    }
+}

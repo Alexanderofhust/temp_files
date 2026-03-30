@@ -1,0 +1,9 @@
+{
+     "NuScenes_test": {
+        "root": "/data/chenxiwu/",
+        "annotation": "/data/chenxiwu/Drive/OpenREAD_new/OpenREAD/cot_data/val/dealed_nuscenes_traj_val.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 6019
+    }
+}
