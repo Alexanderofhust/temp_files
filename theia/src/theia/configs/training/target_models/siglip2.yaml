@@ -1,0 +1,3 @@
+target_model_names:
+ - "google/siglip2-so400m-patch16-naflex"
+target_model_weights: null

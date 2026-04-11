@@ -1,0 +1,3 @@
+target_model_names:
+ - "depth-anything/DA3-LARGE"
+target_model_weights: null

@@ -1,0 +1,6 @@
+model_path: "/data/shengzhenli/theia/trained_models"
+log_path: "/data/shengzhenli/theia/logs"
+save_ckpt_interval: 10000
+notes: "navsim_cdiv_training"
+run_identifier_prefix: "navsim_"
+project: "theia_navsim"

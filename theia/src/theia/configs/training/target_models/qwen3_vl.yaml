@@ -1,0 +1,3 @@
+target_model_names:
+ - "Qwen/Qwen3-VL-8B-Instruct"
+target_model_weights: null

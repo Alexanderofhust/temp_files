@@ -1,0 +1,13 @@
+defaults:
+  - dataset: navsim          
+  - model/backbone: deit     
+  - model/translator: lconv 
+  - training: frame_level    
+  - logging: default
+  - _self_
+
+seed: 0
+
+model:
+  backbone:
+    image_size: [224, 224]

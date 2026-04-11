@@ -1,0 +1,7 @@
+defaults:
+    - image_video_default
+
+dataset_mix:
+    - "navsim_stitch"
+
+stats_prefix: "navsim_stitch"

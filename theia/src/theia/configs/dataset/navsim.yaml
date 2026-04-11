@@ -1,0 +1,7 @@
+defaults:
+    - image_video_default
+
+dataset_mix:
+    - "navsim"
+
+stats_prefix: "navsim"
