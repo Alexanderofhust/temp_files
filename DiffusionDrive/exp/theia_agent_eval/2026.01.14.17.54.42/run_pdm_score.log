@@ -1,0 +1,8 @@
+[2026-01-14 17:54:43,643][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2026-01-14 17:54:45,325][nuplan.planning.utils.multithreading.worker_ray][INFO] - Starting ray local!
+[2026-01-14 17:54:53,102][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributed
+[2026-01-14 17:54:53,103][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 48
+Number of GPUs per node: 4
+Number of threads across all nodes: 48
+[2026-01-14 17:54:53,103][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!

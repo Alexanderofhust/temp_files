@@ -1,0 +1,26 @@
+[2026-04-12 14:25:11,781][__main__][INFO] - Global Seed set to 0
+[2026-04-12 14:25:11,784][__main__][INFO] - Path where all results are stored: /data/shengzhenli/DiffusionDrive/diffusiondrive_score_exp
+[2026-04-12 14:25:11,784][__main__][INFO] - Building Agent
+[2026-04-12 14:25:13,012][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)
+[2026-04-12 14:25:13,612][timm.models._hub][INFO] - [timm/resnet34.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2026-04-12 14:25:13,635][timm.models._builder][INFO] - Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2026-04-12 14:25:16,189][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Disabled nuplan ray progress bars via NAVSIM_DISABLE_RAY_PROGRESS_BAR=1
+[2026-04-12 14:25:16,190][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Not using GPU in ray
+[2026-04-12 14:25:16,190][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Starting ray local!
+[2026-04-12 14:25:22,650][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributedNoTorch
+[2026-04-12 14:25:22,650][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 8
+Number of GPUs per node: 0
+Number of threads across all nodes: 8
+[2026-04-12 14:25:22,651][__main__][INFO] - Building Lightning Module
+[2026-04-12 14:25:22,662][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp3v3ma2h1
+[2026-04-12 14:25:22,662][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp3v3ma2h1/_remote_module_non_scriptable.py
+[2026-04-12 14:25:22,679][__main__][INFO] - Using cached data without building SceneLoader
+[2026-04-12 14:25:24,841][__main__][INFO] - Building Datasets
+[2026-04-12 14:25:24,842][__main__][INFO] - Num training samples: 85109
+[2026-04-12 14:25:24,843][__main__][INFO] - Num validation samples: 18179
+[2026-04-12 14:25:24,843][__main__][INFO] - Building Trainer
+[2026-04-12 14:25:24,932][__main__][INFO] - Starting Training
+[2026-04-12 14:25:25,127][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 2
+[2026-04-12 14:25:25,137][torch.distributed.distributed_c10d][INFO] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2026-04-12 14:26:30,652][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.

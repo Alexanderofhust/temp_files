@@ -1,0 +1,5 @@
+- train_test_split=navtest
+- agent=theia_agent
+- worker=ray_distributed
+- agent.checkpoint_path=/data/shengzhenli/DiffusionDrive/exp/lightning_logs/version_10/checkpoints/epoch99-step16700.ckpt
+- experiment_name=theia_agent_eval

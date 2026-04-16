@@ -1,0 +1,10 @@
+[2026-03-09 11:34:49,554][__main__][INFO] - Global Seed set to 0
+[2026-03-09 11:34:49,557][__main__][INFO] - Path where all results are stored: /data/shengzhenli/DiffusionDrive/exp
+[2026-03-09 11:34:49,557][__main__][INFO] - Building Agent
+[2026-03-09 11:34:52,288][__main__][INFO] - Building Lightning Module
+[2026-03-09 11:34:52,288][__main__][INFO] - Using cached data without building SceneLoader
+[2026-03-09 11:34:54,448][__main__][INFO] - Building Datasets
+[2026-03-09 11:34:54,448][__main__][INFO] - Num training samples: 85109
+[2026-03-09 11:34:54,448][__main__][INFO] - Num validation samples: 18179
+[2026-03-09 11:34:54,448][__main__][INFO] - Building Trainer
+[2026-03-09 11:34:54,496][__main__][INFO] - Starting Training

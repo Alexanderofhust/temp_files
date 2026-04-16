@@ -1,0 +1,2 @@
+- agent=diffusiondrive_agent
+- train_test_split=navtrain

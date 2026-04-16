@@ -1,0 +1,3 @@
+- agent=diffusiondrive_6view_agent
+- experiment_name=training_diffusiondrive_a6view_gent
+- train_test_split=navtrain

@@ -1,0 +1,12 @@
+[2026-01-13 13:01:44,861][__main__][INFO] - Global Seed set to 0
+[2026-01-13 13:01:44,862][__main__][INFO] - Path where all results are stored: /data/shengzhenli/DiffusionDrive/exp
+[2026-01-13 13:01:44,862][__main__][INFO] - Building Agent
+[2026-01-13 13:02:01,355][__main__][INFO] - Building Lightning Module
+[2026-01-13 13:02:01,442][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpva29lrl5
+[2026-01-13 13:02:01,443][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpva29lrl5/_remote_module_non_scriptable.py
+[2026-01-13 13:02:01,519][__main__][INFO] - Using cached data without building SceneLoader
+[2026-01-13 13:02:07,962][__main__][INFO] - Building Datasets
+[2026-01-13 13:02:07,965][__main__][INFO] - Num training samples: 85109
+[2026-01-13 13:02:07,965][__main__][INFO] - Num validation samples: 18179
+[2026-01-13 13:02:07,965][__main__][INFO] - Building Trainer
+[2026-01-13 13:02:08,156][__main__][INFO] - Starting Training

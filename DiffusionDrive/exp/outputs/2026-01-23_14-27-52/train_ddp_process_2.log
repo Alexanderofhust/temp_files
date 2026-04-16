@@ -1,0 +1,15 @@
+[2026-01-23 14:33:49,461][__main__][INFO] - Global Seed set to 0
+[2026-01-23 14:33:49,463][__main__][INFO] - Path where all results are stored: /data/shengzhenli/DiffusionDrive/exp
+[2026-01-23 14:33:49,463][__main__][INFO] - Building Agent
+[2026-01-23 14:33:52,214][__main__][INFO] - Building Lightning Module
+[2026-01-23 14:33:52,221][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpe2ny8oy2
+[2026-01-23 14:33:52,222][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpe2ny8oy2/_remote_module_non_scriptable.py
+[2026-01-23 14:33:52,230][__main__][INFO] - Using cached data without building SceneLoader
+[2026-01-23 14:33:53,925][__main__][INFO] - Building Datasets
+[2026-01-23 14:33:53,926][__main__][INFO] - Num training samples: 85109
+[2026-01-23 14:33:53,926][__main__][INFO] - Num validation samples: 18179
+[2026-01-23 14:33:53,926][__main__][INFO] - Building Trainer
+[2026-01-23 14:33:54,017][__main__][INFO] - Starting Training
+[2026-01-23 14:33:54,085][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 2
+[2026-01-23 14:33:55,534][torch.distributed.distributed_c10d][INFO] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2026-01-23 14:34:35,027][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.

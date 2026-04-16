@@ -1,0 +1,4 @@
+- agent=diffusiondrive_score_agent
+- experiment_name=training_diffusiondrive_score_agent
+- train_test_split=navtrain
+- split=trainval

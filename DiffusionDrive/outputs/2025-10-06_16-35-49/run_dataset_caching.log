@@ -1,0 +1,4 @@
+[2025-10-06 16:36:03,073][__main__][INFO] - Global Seed set to 0
+[2025-10-06 16:36:03,076][__main__][INFO] - Building Worker
+[2025-10-06 16:36:05,833][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Not using GPU in ray
+[2025-10-06 16:36:05,833][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Starting ray local!

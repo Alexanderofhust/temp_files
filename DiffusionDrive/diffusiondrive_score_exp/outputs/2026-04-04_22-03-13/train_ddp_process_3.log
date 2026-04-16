@@ -1,0 +1,17 @@
+[2026-04-04 22:04:08,098][__main__][INFO] - Global Seed set to 0
+[2026-04-04 22:04:08,100][__main__][INFO] - Path where all results are stored: /data/shengzhenli/DiffusionDrive/diffusiondrive_score_exp
+[2026-04-04 22:04:08,100][__main__][INFO] - Building Agent
+[2026-04-04 22:04:09,208][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)
+[2026-04-04 22:04:10,353][timm.models._hub][INFO] - [timm/resnet34.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2026-04-04 22:04:10,386][timm.models._builder][INFO] - Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2026-04-04 22:04:11,102][__main__][INFO] - Building Lightning Module
+[2026-04-04 22:04:11,110][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpc6mb_l6l
+[2026-04-04 22:04:11,111][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpc6mb_l6l/_remote_module_non_scriptable.py
+[2026-04-04 22:04:11,124][__main__][INFO] - Using cached data without building SceneLoader
+[2026-04-04 22:04:13,427][__main__][INFO] - Building Datasets
+[2026-04-04 22:04:13,427][__main__][INFO] - Num training samples: 85109
+[2026-04-04 22:04:13,428][__main__][INFO] - Num validation samples: 18179
+[2026-04-04 22:04:13,428][__main__][INFO] - Building Trainer
+[2026-04-04 22:04:13,534][__main__][INFO] - Starting Training
+[2026-04-04 22:04:13,634][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 3
+[2026-04-04 22:04:19,001][torch.distributed.distributed_c10d][INFO] - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.

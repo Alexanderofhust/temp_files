@@ -1,0 +1,5 @@
+- train_test_split=navtest
+- agent=transfuser_agent
+- worker=ray_distributed
+- agent.checkpoint_path=/data/shengzhenli/navsim-1.1/exp/transfuser_training/2025.10.24.10.07.33/lightning_logs/version_0/checkpoints/epoch99-step33300.ckpt
+- experiment_name=transfuser_agent_eval

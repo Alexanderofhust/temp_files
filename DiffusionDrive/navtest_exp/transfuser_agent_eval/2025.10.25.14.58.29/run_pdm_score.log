@@ -1,0 +1,16 @@
+[2025-10-25 14:58:30,428][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2025-10-25 14:58:31,831][nuplan.planning.utils.multithreading.worker_ray][INFO] - Starting ray local!
+[2025-10-25 14:58:38,872][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributed
+[2025-10-25 14:58:38,873][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 48
+Number of GPUs per node: 4
+Number of threads across all nodes: 48
+[2025-10-25 14:58:38,873][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!
+[2025-10-25 14:58:43,934][__main__][INFO] - Starting pdm scoring of 12146 scenarios...
+[2025-10-25 15:18:39,051][__main__][INFO] - 
+        Finished running evaluation.
+            Number of successful scenarios: 12146.
+            Number of failed scenarios: 0.
+            Final average score of valid results: 0.8344792984342706.
+            Results are stored in: /data/shengzhenli/navsim-1.1/navtest_exp/transfuser_agent_eval/2025.10.25.14.58.29/2025.10.25.15.18.38.csv.
+        

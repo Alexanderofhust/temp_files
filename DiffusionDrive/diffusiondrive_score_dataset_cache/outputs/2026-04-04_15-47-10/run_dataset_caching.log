@@ -1,0 +1,12 @@
+[2026-04-04 15:47:17,766][__main__][INFO] - Global Seed set to 0
+[2026-04-04 15:47:17,768][__main__][INFO] - Building Worker
+[2026-04-04 15:47:18,998][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Not using GPU in ray
+[2026-04-04 15:47:18,998][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Starting ray local!
+[2026-04-04 15:47:26,139][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributedNoTorch
+[2026-04-04 15:47:26,140][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 48
+Number of GPUs per node: 0
+Number of threads across all nodes: 48
+[2026-04-04 15:47:26,140][__main__][INFO] - Building SceneLoader
+[2026-04-04 15:48:25,811][__main__][INFO] - Extracted 103288 scenarios for training/validation dataset
+[2026-04-04 18:38:14,153][__main__][INFO] - Finished caching 103288 scenarios for training/validation dataset

@@ -1,0 +1,10 @@
+[2026-04-04 22:01:51,653][__main__][INFO] - Global Seed set to 0
+[2026-04-04 22:01:51,654][__main__][INFO] - Path where all results are stored: /data/shengzhenli/DiffusionDrive/diffusiondrive_score_exp
+[2026-04-04 22:01:51,654][__main__][INFO] - Building Agent
+[2026-04-04 22:01:53,101][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)
+[2026-04-04 22:01:53,997][timm.models._hub][INFO] - [timm/resnet34.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2026-04-04 22:01:54,018][timm.models._builder][INFO] - Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2026-04-04 22:01:54,578][__main__][INFO] - Building Lightning Module
+[2026-04-04 22:01:54,591][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmptgcxu956
+[2026-04-04 22:01:54,592][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmptgcxu956/_remote_module_non_scriptable.py
+[2026-04-04 22:01:54,605][__main__][INFO] - Using cached data without building SceneLoader

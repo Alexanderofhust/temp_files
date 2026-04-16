@@ -1,0 +1,16 @@
+2025-10-25 14:58:30,428 INFO {/data/shengzhenli/navsim-1.1/navsim/planning/script/builders/worker_pool_builder.py:20}  Building WorkerPool...
+2025-10-25 14:58:31,831 INFO {/home/shengzhenli/anaconda3/envs/navsim/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_ray.py:78}  Starting ray local!
+2025-10-25 14:58:38,872 INFO {/home/shengzhenli/anaconda3/envs/navsim/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:101}  Worker: RayDistributed
+2025-10-25 14:58:38,873 INFO {/home/shengzhenli/anaconda3/envs/navsim/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:102}  Number of nodes: 1
+Number of CPUs per node: 48
+Number of GPUs per node: 4
+Number of threads across all nodes: 48
+2025-10-25 14:58:38,873 INFO {/data/shengzhenli/navsim-1.1/navsim/planning/script/builders/worker_pool_builder.py:31}  Building WorkerPool...DONE!
+2025-10-25 14:58:43,934 INFO {/data/shengzhenli/navsim-1.1/navsim/planning/script/run_pdm_score.py:130}  Starting pdm scoring of 12146 scenarios...
+2025-10-25 15:18:39,051 INFO {/data/shengzhenli/navsim-1.1/navsim/planning/script/run_pdm_score.py:153}  
+        Finished running evaluation.
+            Number of successful scenarios: 12146.
+            Number of failed scenarios: 0.
+            Final average score of valid results: 0.8344792984342706.
+            Results are stored in: /data/shengzhenli/navsim-1.1/navtest_exp/transfuser_agent_eval/2025.10.25.14.58.29/2025.10.25.15.18.38.csv.
+        
