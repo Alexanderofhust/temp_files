@@ -1,0 +1,9 @@
+1. Theia_score放到DiffusionDrive/navsim/agents
+
+2. DiffusionDrive/navsim/planning/script/config/common/agent/theia_score_agent.yaml放到这里
+3. DiffusionDrive/scripts/evaluation/run_theia_score.sh测试脚本。METRIC_CACHE_PATH可以复用之前diffusiondrive和theia的
+4. DiffusionDrive/scripts/training/run_theia_score_training.sh训练脚本。
+5. DiffusionDrive/scripts/cache/train_metrics_cache_theia_score.sh获得的metric cahce放在run_theia_score_training.sh的SCORE_CACHE_PATH上
+6. /data/shengzhenli/DiffusionDrive/scripts/cache/run_dataset_cache_theia_score.sh获得的cache放在run_theia_score_training.sh的DATA_CACHE_PATH上
+7. 这个是在theia基础上加上打分模块+开启lidar输入的agent（之前lidar输入是关闭的）
+8. 目前训练总epoch设置为了50，自动保存val score最高的ckpt和最后两轮的ckpt
