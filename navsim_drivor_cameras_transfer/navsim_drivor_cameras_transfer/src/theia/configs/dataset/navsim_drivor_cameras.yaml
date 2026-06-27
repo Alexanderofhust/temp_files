@@ -1,0 +1,18 @@
+defaults:
+    - image_video_default
+
+dataset_mix:
+    - "navsim_drivor_cameras"
+
+stats_prefix: "navsim_drivor_cameras"
+dataset_root: "/data/shengzhenli/theia_navsim_drivor_datasets"
+
+# Teacher feature sizes for DrivoR camera images resized to 672x1148 (H x W).
+# These overrides are used only by train_rvfm when this dataset config is selected.
+feature_size_overrides:
+  "facebook/dinov3-vitl16-pretrain-lvd1689m": [1024, 42, 71]
+  "google/siglip2-so400m-patch16-naflex": [1152, 24, 41]
+  "depth-anything/DA3-LARGE": [1024, 48, 82]
+  "depth-anything/DA3-LARGE-LAYER23": [1024, 48, 82]
+  "depth-anything/DA3-LARGE-PREDEPTH-64X256": [32, 64, 256]
+  "nvidia/C-RADIOv4-SO400M": [1152, 42, 71]

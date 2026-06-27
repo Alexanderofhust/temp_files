@@ -1,0 +1,36 @@
+diff --git a/src/theia/dataset/image/image_common.py b/src/theia/dataset/image/image_common.py
+index 1c96c01..8788037 100644
+--- a/src/theia/dataset/image/image_common.py
++++ b/src/theia/dataset/image/image_common.py
+@@ -3,4 +3,9 @@
+ from collections import OrderedDict
+ 
+ #ALL_IMAGE_DATASETS = OrderedDict({"imagenet": {"steps": 1_281_167}})
+-ALL_IMAGE_DATASETS = OrderedDict({"imagenet": {"steps": 1_281_167},"navsim": {"steps": 1_219_960},"navsim_stitch": {"steps": 1_219_960},},)
++ALL_IMAGE_DATASETS = OrderedDict({
++    "imagenet": {"steps": 1_281_167},
++    "navsim": {"steps": 1_219_960},
++    "navsim_stitch": {"steps": 1_219_960},
++    "navsim_drivor_cameras": {"steps": 1_219_960},
++})
+diff --git a/src/theia/scripts/train/train_rvfm.py b/src/theia/scripts/train/train_rvfm.py
+index f7a9586..fbb7ec0 100644
+--- a/src/theia/scripts/train/train_rvfm.py
++++ b/src/theia/scripts/train/train_rvfm.py
+@@ -247,7 +247,15 @@ def ddp_main(cfg: DictConfig) -> None:
+         else list(MODEL_FEATURE_SIZES.keys())
+     )
+     target_model_names = [t for t in target_model_names if "llava" not in t]  # llava is currently not supported
+-    target_feature_sizes = {t: get_model_feature_size(t, keep_spatial=True) for t in target_model_names}
++    feature_size_overrides = OmegaConf.to_container(
++        cfg.dataset.get("feature_size_overrides", {}), resolve=True
++    )
++    target_feature_sizes = {}
++    for t in target_model_names:
++        if t in feature_size_overrides:
++            target_feature_sizes[t] = tuple(feature_size_overrides[t])
++        else:
++            target_feature_sizes[t] = get_model_feature_size(t, keep_spatial=True)
+ 
+     target_model_names_wocls = target_model_names[:]
+     if hasattr(cfg.training, "distill_cls") and cfg.training.distill_cls == True:
